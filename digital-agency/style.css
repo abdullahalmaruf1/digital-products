@@ -1,0 +1,119 @@
+*{
+    max-resolution: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(61, 61, 61);
+    padding: 20px;
+    color: white;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-photo{
+    width: 110px;
+    
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 20px;
+    padding: auto;
+    font-size: 18px;
+    cursor: pointer;
+}
+.item:hover{
+    color: orange
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("images/background.png"),linear-gradient(45deg,#000000,#272727);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-img{
+    width: 300px;
+}
+.banner-text{
+    color: white;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    color: white;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover{
+   
+    background-color: green;
+}
+.about{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about-cotainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.box{
+    width: 280px;
+    height: 330px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+ 
+}
+.box-btn:hover{
+    color: white;
+    background-color: blueviolet;
+}
+.box-title{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #444242;
+    height: 100vh;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
